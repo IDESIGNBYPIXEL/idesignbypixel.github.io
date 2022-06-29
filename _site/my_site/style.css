@@ -58,39 +58,6 @@ body{
     -o-object-position: center;
        object-position: center;
   }
-  .fade-in{
-     animation: fadeIn 3s;
-    -webkit-animation: fadeIn 3s;
-    -moz-animation: fadeIn 3s;
-    -o-animation: fadeIn 3s;
-    -ms-animation: fadeIn 3s;
-}
-
-  
-  @keyframes fadeIn {
-    0% { opacity: 0; }
-    100% { opacity: 1; }
-  }
-  
-  @-moz-keyframes fadeIn {
-    0% { opacity: 0; }
-    100% { opacity: 1; }
-  }
-  
-  @-webkit-keyframes fadeIn {
-    0% { opacity: 0; }
-    100% { opacity: 1; }
-  }
-  
-  @-o-keyframes fadeIn {
-    0% { opacity: 0; }
-    100% { opacity: 1; }
-  }
-  
-  @-ms-keyframes fadeIn {
-    0% { opacity: 0; }
-    100% { opacity: 1; }
-  }
   
   .overlay {
     min-height: 100vh;
@@ -105,8 +72,8 @@ body{
             justify-content: center;
   }
   .overlay h1 {
-      background: rgb(255, 255, 255) none repeat scroll 0 0;
-      color: rgb(0, 0, 0);
+      background: rgb(0, 0, 0) none repeat scroll 0 0;
+      color: rgb(225, 198, 161);
       font-weight: 600;
       margin: 2rem 3rem 0;
       mix-blend-mode: overlay;
@@ -118,19 +85,18 @@ body{
     position: fixed;
     width: 100%;
     text-align: right;
-    color: #303031;
+    color: #2b0076;
     -webkit-transition: .4s;
     transition: .4s;
     padding: 0.5em;
-    font-weight: 500;
-    
+    font-weight: 600;
   }
   nav a {
       color: inherit;
       padding: 0 12px;
       text-decoration: none;
-      
   }
+<<<<<<< HEAD:_site/my_site/style.css
 
   a:hover {
     color: rgb(19, 18, 20);
@@ -181,3 +147,6 @@ body{
       max-width: 100%;
     }
   }
+=======
+  
+>>>>>>> parent of f4cf1cb (video transitions):style.css
