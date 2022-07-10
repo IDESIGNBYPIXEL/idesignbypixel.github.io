@@ -1,7 +1,18 @@
-body{
-    margin: 0%;
-    padding-top: 0%;
+body {
+  font-family: "Lato", "Montserrat", sans-serif;
+  margin: 0;
+  background: #000;
+  background-size: cover;
+  padding-top: 0%;
 }
+
+
+  h1 h2 h3 h4 h5 h6{
+    color: white;
+    font-family: "Montserrat", sans-serif;
+  }
+
+
   ul {
     list-style-type: none;
     margin: 0;
@@ -40,12 +51,7 @@ body{
     box-sizing: border-box;
   }
   
-  body {
-    font-family: "Lato","Avenir Next",Arial,sans-serif;
-    margin: 0;
-    background: #000;
-    background-size: cover;
-  }
+  
   
   video {
     position: absolute;
@@ -74,6 +80,7 @@ body{
   .overlay h1 {
       background: rgb(0, 0, 0) none repeat scroll 0 0;
       color: rgb(225, 198, 161);
+      border-radius: 5%;
       font-weight: 600;
       margin: 2rem 3rem 0;
       mix-blend-mode: overlay;
@@ -88,7 +95,7 @@ body{
     color: #2b0076;
     -webkit-transition: .4s;
     transition: .4s;
-    padding: 0.5em;
+    padding: 1.0em;
     font-weight: 600;
   }
   nav a {
@@ -146,3 +153,5 @@ body{
       max-width: 100%;
     }
   }
+
+ 
